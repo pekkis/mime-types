@@ -1,0 +1,34 @@
+{
+    "name": "pekkis/mime-types",
+    "description": "Mime type library",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": ["mime", "mime type"],
+    "authors": [
+        {
+            "name": "Mikko Forsström",
+            "email": "puhemies@diktaattoriporssi.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "require": {
+        "php": ">=5.5.0",
+        "dflydev/apache-mime-types": "~1.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "symfony/http-foundation": "~2.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Pekkis\\MimeTypes": "library/"
+        }
+    },
+
+    "suggest": {
+        "symfony/http-foundation": "For symfony mime type resolver support"
+    }
+}
