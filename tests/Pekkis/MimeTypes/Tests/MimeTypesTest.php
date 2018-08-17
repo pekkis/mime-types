@@ -4,8 +4,9 @@ namespace Pekkis\MimeTypes\Tests;
 
 use Pekkis\MimeTypes\MimeTypes;
 use Pekkis\MimeTypes\Resolver\Resolver;
+use PHPUnit\Framework\TestCase;
 
-class MimeTypesTest extends \PHPUnit_Framework_TestCase
+class MimeTypesTest extends TestCase
 {
     /**
      * @test
